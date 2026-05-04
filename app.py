@@ -526,7 +526,7 @@ with col_right:
             st.warning("Please enter some text before analysing.")
         else:
             with st.spinner("Analysing…"):
-                cleaned    = wordopt(news_input)
+                cleaned    = wordopt(news_input) # cleans the input news text
                 vector     = vectorizer.transform([cleaned])
                 
                 pred_LR = LR.predict(vector)[0]

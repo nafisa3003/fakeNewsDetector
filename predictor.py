@@ -16,7 +16,7 @@ def manual_testing(news, vectorization, LR, DT, GB, RF):
     # predicts news class using trained models and majority vote
     testing_news = {"text": [news]}
     new_def_test = pd.DataFrame(testing_news)
-    new_def_test["text"] = new_def_test["text"].apply(wordopt)
+    new_def_test["text"] = new_def_test["text"].apply(wordopt) # cleans the input news text
     new_x_test  = new_def_test["text"]
     new_xv_test = vectorization.transform(new_x_test)
 
