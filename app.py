@@ -32,9 +32,8 @@ html, body, [data-testid="stAppViewContainer"] {
     background: #080c14 !important;
 }
 
-/* hide streamlit chrome */
-#MainMenu, footer, header,
-[data-testid="stDecoration"], [data-testid="stStatusWidget"] {
+/* hide streamlit footer */
+footer {
     display: none !important;
 }
 
@@ -49,7 +48,7 @@ section[data-testid="stSidebar"] { display: none; }
 .hero {
     position: relative;
     width: 100%;
-    padding: 32px 48px 32px;
+    padding: 84px 48px 32px;
     background: linear-gradient(135deg, #080c14 0%, #0d1524 60%, #111827 100%);
     border-bottom: 1px solid #1e293b;
     overflow: hidden;
