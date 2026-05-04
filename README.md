@@ -1,5 +1,7 @@
 # Verity — Fake News Detector
 
+![Header](screenshots/header.png)
+
 A modular NLP application that uses four machine learning models (Logistic Regression, Decision Tree, Gradient Boosting, and Random Forest) to detect fake news articles via a majority-vote consensus.
 
 ## 🚀 Setup Instructions
@@ -28,6 +30,14 @@ Once the models are saved (look for `.pkl` files), start the Streamlit interface
 ```bash
 streamlit run app.py
 ```
+
+## 📸 Screenshots
+
+### True News Detection
+![True News](screenshots/trueNews.png)
+
+### Fake News Detection
+![Fake News](screenshots/fakeNews.png)
 
 ## 📂 Project Structure
 - `app.py`: Streamlit web interface.
