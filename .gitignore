@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Models (Keep the repo clean)
+*.pkl
+
+# Data (Optional: if the CSVs are very large, you might want to ignore them too, but here they are needed)
+# Fake.csv
+# True.csv
+
+# Streamlit
+.streamlit/config.toml
